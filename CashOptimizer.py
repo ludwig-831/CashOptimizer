@@ -1,5 +1,5 @@
 def get_optimal(price, cash_avail_int, cash_avail_string):
-    """ Takes a price and optimally breaks it down into the cah units of the
+    """ Takes a price and optimally breaks it down into the cash units of the
     given currency. Returns a list of strings to be printed.
     """
     price *= 100 # convert price to cents
