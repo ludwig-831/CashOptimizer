@@ -7,7 +7,7 @@ def get_optimal(price, cash_avail_int, cash_avail_string):
 
     for i in range(len(cash_avail_int)):
         amount = price//cash_avail_int[i] # optimal number of notes/coins for this unit of cash
-        cash_avail_string[i] += ": {}".format(amount) # append to the string list so
+        cash_avail_string[i] += ": {}".format(amount) # append to the string list
         # for "pretty" printing
         price -= amount*cash_avail_int[i] # subtract the money that is already
         # accounted for with the units of cash that were checked so far
